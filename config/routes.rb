@@ -1,4 +1,7 @@
 Roc::Application.routes.draw do
+  resources :users
+
+
   resources :videos
 
 

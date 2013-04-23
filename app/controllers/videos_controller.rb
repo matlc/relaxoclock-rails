@@ -1,4 +1,5 @@
 class VideosController < ApplicationController
+
   # GET /videos
   # GET /videos.json
   def index
@@ -36,6 +37,11 @@ class VideosController < ApplicationController
   def edit
     @video = Video.find(params[:id])
   end
+
+
+  # def confirm
+    
+  # end
 
   # POST /videos
   # POST /videos.json
